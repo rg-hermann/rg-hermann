@@ -1,6 +1,6 @@
 # 👋 Hi, I’m @rg-hermann
 
-Sou Rodrigo, um profissional apaixonado por **DevOps** e **Infraestrutura**, atualmente atuando no **Grupo Hindiana**. Com uma sólida experiência na área, estou no último ano da minha graduação em **Ciência da Computação** pela **SPTech**. Ao longo da minha carreira, tenho me especializado em otimizar infraestruturas, implementar automações complexas, gerenciar custos (**FinOps**), e resolver projetos estratégicos de alta complexidade.
+Sou Rodrigo, um profissional apaixonado por **DevOps** e **Infraestrutura**, atualmente atuando na **Avanade**. Com uma sólida experiência na área, sou graduado em **Ciência da Computação** pela **SPTech**. Ao longo da minha carreira, tenho me especializado em otimizar infraestruturas, implementar automações complexas, gerenciar custos (**FinOps**), e resolver projetos estratégicos de alta complexidade.
 
 ## 👀 I’m interested in...
 - **Otimização de Infraestruturas:** Busco constantemente melhorar a eficiência e reduzir custos através de práticas como **Infraestrutura como Código (IaC)**.
