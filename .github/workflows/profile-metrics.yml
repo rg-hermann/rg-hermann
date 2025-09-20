@@ -2,7 +2,7 @@ name: Generate Profile Metrics
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # A cada 12h
+    - cron: '0 3 * * 1'  # Toda segunda-feira 03:00 UTC (~00:00 America/Sao_Paulo)
   workflow_dispatch:
   push:
     branches: [ main ]
