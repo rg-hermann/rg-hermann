@@ -16,11 +16,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validar token de métricas
+        id: token_check
+        run: |
+          if [ -n "${{ secrets.METRICS_TOKEN }}" ]; then
+            echo "token_status=custom" >> $GITHUB_OUTPUT
+            echo "Usando METRICS_TOKEN definido (tamanho: ${#METRICS_TOKEN})" | sed 's/./*/g'
+          else
+            echo "token_status=fallback" >> $GITHUB_OUTPUT
+            echo "ATENÇÃO: METRICS_TOKEN não definido. Será usado GITHUB_TOKEN (recursos limitados)." >&2
+          fi
+
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
           filename: assets/metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          # Usa METRICS_TOKEN se existir, senão GITHUB_TOKEN (limitações: alguns plugins/escopos podem falhar)
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: rg-hermann
           template: classic
           base: header, activity, community, repositories, metadata
