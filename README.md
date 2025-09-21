@@ -93,6 +93,8 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 - Participo de hackathons e mantenho pequenos scripts de automação
 
 ---
+<p align="right"><sub>Última atualização: <!--LAST_UPDATED-->2025-09-21<!--/LAST_UPDATED--></sub></p>
+---
 ### 🔧 Como isso funciona?
 Workflows automatizam a geração de:
 - `metrics.svg` (action lowlighter/metrics) – estatísticas agregadas

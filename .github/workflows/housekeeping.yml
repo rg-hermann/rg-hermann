@@ -1,0 +1,35 @@
+name: Housekeeping Monthly
+
+on:
+  schedule:
+    - cron: '0 3 1 * *'  # Dia 1 mês, 03:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: housekeeping
+  cancel-in-progress: false
+
+jobs:
+  update-readme-date:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update LAST_UPDATED placeholder
+        run: |
+          set -euo pipefail
+          DATE_UTC=$(date -u +%Y-%m-%d)
+          # Atualiza somente o conteúdo entre as tags do placeholder
+          sed -i "s/<!--LAST_UPDATED-->.*<!--\/LAST_UPDATED-->/<!--LAST_UPDATED-->$DATE_UTC<!--\/LAST_UPDATED-->/g" README.md
+          if git diff --quiet README.md; then
+            echo "No README date change"
+            exit 0
+          fi
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "chore: update last updated date ($DATE_UTC)"
+          git push
