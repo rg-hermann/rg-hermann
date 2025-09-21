@@ -13,7 +13,7 @@
 </div>
 
 ## 🧑‍💻 Sobre mim
-Sou um profissional de **DevOps / Cloud Engineering** atuando na **Avanade**. Formado em **Ciência da Computação (SPTech)**, com foco em:
+Sou um profissional de **DevOps / Cloud Engineering**. Formado em **Ciência da Computação (SPTech)**, com foco em:
 - Infraestrutura como Código (**Terraform**, Bicep)
 - Observabilidade (**Log Analytics**, Prometheus, Grafana)
 - **FinOps** & otimização de custo multicloud
