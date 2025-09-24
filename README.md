@@ -93,23 +93,7 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 - Participo de hackathons e mantenho pequenos scripts de automação
 
 ---
-<p align="right"><sub>Última atualização: <!--LAST_UPDATED-->2025-09-21<!--/LAST_UPDATED--></sub></p>
----
-### 🔧 Como isso funciona?
-Workflows automatizam a geração de:
-- `metrics.svg` (action lowlighter/metrics) – estatísticas agregadas
-- `snake.svg` (action Platane/snk) – animação das contribuições
-
-Crie o secret `METRICS_TOKEN` (PAT com scopes: `public_repo`, `read:user`, `read:org` se quiser org metrics) para habilitar o workflow. O GitHub default token já basta para o Snake.
-
-> Caso alguma imagem não carregue, é cache/CDN do provedor. Normalmente volta após alguns minutos.
-
 ---
 <div align="center">
 <i>Se esse perfil te ajudou, considere deixar uma ⭐ em algum repositório!</i>
 </div>
-
-<!--
-Este repositório é especial: o README aparece no seu perfil GitHub.
-Customize à vontade e mantenha workflows simples para evitar rate limits.
--->
