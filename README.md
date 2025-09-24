@@ -37,7 +37,7 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 <div align="center">
 
 <!-- Métricas consolidadas (gerada por lowlighter/metrics) -->
-<img src="./assets/metrics.svg" alt="Metrics" width="800"/>
+<img src="./assets/metrics.svg" alt="Metrics" width="700"/>
 
 </div>
 
@@ -45,11 +45,11 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 <div align="center">
 
 <!-- GitHub Readme Stats (serviço público - pode falhar em horários de pico) -->
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=rg-hermann&show_icons=true&theme=tokyonight&include_all_commits=true" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rg-hermann&layout=compact&langs_count=8&theme=tokyonight" />
+<img height="145" src="https://github-readme-stats.vercel.app/api?username=rg-hermann&show_icons=true&theme=tokyonight&include_all_commits=true" />
+<img height="145" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rg-hermann&layout=compact&langs_count=8&theme=tokyonight" />
 
 <!-- Streak -->
-<img height="150" src="https://streak-stats.demolab.com?user=rg-hermann&theme=tokyonight&hide_border=false" />
+<img height="145" src="https://streak-stats.demolab.com?user=rg-hermann&theme=tokyonight&hide_border=false" />
 
 <!-- Trophies -->
 <img src="https://github-profile-trophy.vercel.app/?username=rg-hermann&theme=onedark&no-frame=true&no-bg=true&margin-w=10&row=1" />
