@@ -58,7 +58,7 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 
 ### Snake (Contribuições)
 <div align="center">
-<img src="https://raw.githubusercontent.com/rg-hermann/rg-hermann/output/assets/snake.svg" alt="Snake animation" />
+<img src="./assets/snake.svg" alt="Snake animation" />
 </div>
 
 ## 🚀 Projetos Destaque
