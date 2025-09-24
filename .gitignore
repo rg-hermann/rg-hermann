@@ -1,0 +1,8 @@
+# Arquivos gerados automaticamente
+*.log
+*.tmp
+*.cache
+
+# Diretórios
+node_modules/
+.env
