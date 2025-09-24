@@ -28,7 +28,7 @@ Sou um profissional de **DevOps / Cloud Engineering**. Formado em **Ciência da 
 ## �️ Tecnologias & Ferramentas
 | Cloud | IaC | DevOps / CI | Observabilidade | Linguagens | Outras |
 |-------|-----|-------------|-----------------|------------|--------|
-| Azure, AWS | Terraform, Bicep | GitHub Actions, Azure Pipelines | Log Analytics, Prometheus, Grafana | Python, Bash, PowerShell | Docker, Helm, K8s, Key Vault |
+| Azure, AWS | Terraform, Bicep | GitHub Actions, Azure Pipelines | Grafana, Dynatrace, Zabbix | Python, Bash, PowerShell | Docker, Helm, K8s, Key Vault |
 
 ## 📈 Métricas Dinâmicas
 As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows em `.github/workflows`).
