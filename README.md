@@ -15,7 +15,7 @@
 ## 🧑‍💻 Sobre mim
 Sou um profissional de **DevOps / Cloud Engineering**. Formado em **Ciência da Computação (SPTech)**, com foco em:
 - Infraestrutura como Código (**Terraform**, Bicep)
-- Observabilidade (**Log Analytics**, Prometheus, Grafana)
+- Observabilidade (Grafana, Dynatrace, Zabbix)
 - **FinOps** & otimização de custo multicloud
 - Automação (Pipelines CI/CD, GitHub Actions, Azure DevOps, Ansible)
 - Arquitetura resiliente & segurança básica (Segurança de segredos, RBAC, mínimo privilégio)
