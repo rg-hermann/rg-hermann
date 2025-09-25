@@ -57,8 +57,14 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 </div>
 
 ### Snake (Contribuições)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg?palette=github-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+    <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
+
 <div align="center">
-<img src="./assets/snake.svg" alt="Snake animation" />
+    <img alt="Ocean Snake Animation" src="dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9" width="700"/>
 </div>
 
 ## 🚀 Projetos Destaque
