@@ -12,6 +12,10 @@
 
 </div>
 
+<p align="center">
+🌐 Idiomas: <strong>🇧🇷 Português</strong> | <a href="README.en.md">🇺🇸 English</a>
+</p>
+
 ## 🧑‍💻 Sobre mim
 Sou um profissional de **DevOps / Cloud Engineering**. Formado em **Ciência da Computação (SPTech)**, com foco em:
 - Infraestrutura como Código (**Terraform**, Bicep)
