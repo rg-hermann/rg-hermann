@@ -25,12 +25,12 @@ jobs:
 
       - name: Commit & Push
         run: |
-          if [[ `git status --porcelain assets/snake.svg` ]]; then
+          if [[ `git status --porcelain dist/github-snake.svg` || `git status --porcelain dist/github-snake-dark.svg` || `git status --porcelain dist/ocean.gif` ]]; then
             git config user.name 'github-actions'
             git config user.email 'github-actions@github.com'
-            git add assets/snake.svg
-            git commit -m 'chore: update snake.svg'
+            git add dist/github-snake.svg dist/github-snake-dark.svg dist/ocean.gif
+            git commit -m 'chore: update snake animation files'
             git push
           else
-            echo 'No changes in snake.svg'
+            echo 'No changes in snake animation files'
           fi
