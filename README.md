@@ -17,22 +17,25 @@
 </p>
 
 ## 🧑‍💻 Sobre mim
-Sou um profissional de **DevOps / Cloud Engineering**. Formado em **Ciência da Computação (SPTech)**, com foco em:
-- Infraestrutura como Código (**Terraform**, Bicep)
-- Observabilidade (Grafana, Dynatrace, Zabbix)
+Sou um profissional de **DevOps / Cloud Engineering** e **SRE**. Formado em **Ciência da Computação (SPTech)**, com foco em:
+- Infraestrutura como Código (**Terraform**, Bicep, Helm)
+- **GitOps** e Continuous Deployment (ArgoCD, GitHub Actions)
+- Observabilidade e Monitoramento (Grafana, Prometheus, Dynatrace, Zabbix)
 - **FinOps** & otimização de custo multicloud
-- Automação (Pipelines CI/CD, GitHub Actions, Azure DevOps, Ansible)
-- Arquitetura resiliente & segurança básica (Segurança de segredos, RBAC, mínimo privilégio)
+- Arquitetura resiliente, segurança (mínimo privilégio, RBAC) e compliance
+- Automação de pipelines CI/CD e orquestração (K8s, Docker, Ansible)
 
 ## 🎯 Objetivos Atuais
-- Aprimorar práticas de **FinOps** (OTD, tagging inteligente, chargeback/showback)
-- Expandir IaC multi-provedor (Azure / AWS)
-- Escalar automações usando módulos e reuso padronizado
+- Aprofundar **GitOps** em produção (ArgoCD, Flux, Kyverno)
+- Expandir conhecimento em **Kubernetes avançado** (Custom Controllers, Operators)
+- Implementar **FinOps** automático (tagging inteligente, políticas de custo)
+- Explorar **observabilidade distribuída** (OpenTelemetry, Jaeger, Loki)
+- Certificações: AZ-305 (Azure Solutions Architect), CKA (Kubernetes)
 
 ## �️ Tecnologias & Ferramentas
-| Cloud | IaC | DevOps / CI | Observabilidade | Linguagens | Outras |
-|-------|-----|-------------|-----------------|------------|--------|
-| Azure, AWS | Terraform, Bicep | GitHub Actions, Azure Pipelines | Grafana, Dynatrace, Zabbix | Python, Bash, PowerShell | Docker, Helm, K8s, Key Vault |
+| Cloud | IaC & Config | DevOps / CI-CD | Observabilidade | Linguagens | Orquestração & Containers |
+|-------|-----------|-------------|-----------------|------------|--------|
+| Azure, AWS | Terraform, Bicep, Helm | GitHub Actions, Azure Pipelines, Dependabot | Grafana, Prometheus, Dynatrace, Zabbix | Python, Bash, PowerShell, Java | Docker, Kubernetes (K8s), ArgoCD, Helm, Ansible |
 
 ## 📈 Métricas Dinâmicas
 As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows em `.github/workflows`).
@@ -72,24 +75,33 @@ As imagens abaixo são geradas automaticamente via GitHub Actions (ver workflows
 </div>
 
 ## 🚀 Projetos Destaque
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| `modules_terraform` | Módulos reutilizáveis Terraform (AKS, ACR, Function, KV etc.) | Terraform, Azure |
-| `azure_func_python` | Exemplo de Azure Function em Python com HttpTrigger | Python, Azure Functions |
-| `app-python` | App container + Helm Chart para deploy em K8s | Python, Docker, Helm |
+| Projeto | Descrição | Stack | Status |
+|---------|-----------|-------|--------|
+| `k8s-helm-templates` | Template Helm centralizado para deploy de múltiplas aplicações (Java, Python, Node.js) em Kubernetes | Helm, YAML | ✅ Ativo |
+| `java-bootstrap` | Template profissional Java 21 + Spring Boot 3 com enterprise-grade security, testing e DevOps | Java, Spring Boot, Maven | ✅ Ativo |
+| `python-bootstrap` | Aplicação FastAPI 3.12 com pytest (100% coverage), code quality (Flake8, Black, isort) e Docker | Python, FastAPI, pytest | ✅ Ativo |
+| `java-bootstrap-infra` | GitOps configuration para deploy automático de Java via ArgoCD no Kubernetes | Helm, ArgoCD, K8s | ✅ Ativo |
+| `python-bootstrap-infra` | GitOps configuration para deploy automático de Python via ArgoCD no Kubernetes | Helm, ArgoCD, K8s | ✅ Ativo |
+| `modules_terraform` | Módulos reutilizáveis Terraform (AKS, ACR, Function, Key Vault, Storage, etc) | Terraform, Azure, HCL | ✅ Ativo |
+| `devops` | Portfólio DevOps com scripts de automação, CI/CD, IaC e observabilidade | Shell, Python, Terraform | ✅ Ativo |
 
 > Veja mais em [Repositórios](https://github.com/rg-hermann?tab=repositories).
 
 ## 🤝 Colaboração & Interesses
 - Projetos de **Infraestrutura como Código** (módulos, padrões, governança)
-- Pipelines e **Automação** de provisionamento / entrega
-- Observabilidade & Dados de Uso para FinOps
-- Qualidade / Segurança (linting, políticas, compliance leve)
+- **GitOps & Continuous Deployment** (ArgoCD, Flux, automação de releases)
+- Pipelines e **Automação** de provisionamento / entrega (CI/CD, Dependabot, auto-merge)
+- Observabilidade, Monitoramento & **SRE** (alertas, análise de causa raiz)
+- Qualidade / Segurança (linting, análise estática, políticas, compliance)
+- Templates reutilizáveis e best practices em Kubernetes
 
 ## 📚 Roadmap de Aprendizado
-- Aprofundar: Custos avançados (rightsizing dinâmico, políticas automáticas)
-- Estudar: AWS Landing Zones / Control Tower
-- Explorar: OpenTelemetry + Distribuição de traces
+- Avançar em **Kubernetes avançado** (Custom Resources, Operators, Security)
+- Dominar **GitOps em escala** (multi-cluster, multi-cloud, disaster recovery)
+- Aprofundar **observabilidade distribuída** (OpenTelemetry, análise de traces)
+- Implementar **FinOps automático** (políticas de custo, rightsizing dinâmico)
+- Explorar **SRE practices** (chaos engineering, error budgets, runbooks)
+- Estudar **AWS bem-arquitetado** (Landing Zones, Control Tower)
 
 ## 📫 Contato
 | Canal | Link |

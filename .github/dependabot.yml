@@ -1,24 +1,19 @@
 version: 2
 updates:
+  # GitHub Actions - mensal
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
       time: "03:00"
       timezone: "UTC"
-    # Limita quantidade de PRs abertas simultaneamente
     open-pull-requests-limit: 5
     commit-message:
-      prefix: "chore"
+      prefix: "chore(deps)"
       include: "scope"
     labels:
       - "dependencies"
       - "github-actions"
-    reviewers: []
-    assignees: []
-    # Agrupamento de updates menores
-    groups:
-      actions-minor-patch:
         patterns:
           - "*"
         update-types:
