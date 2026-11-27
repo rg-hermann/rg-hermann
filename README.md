@@ -31,7 +31,7 @@ Tenho especial interesse em **módulos de infraestrutura, templates de serviços
 | **Infraestrutura** | Terraform, Helm, Kubernetes, Docker, Azure e AWS |
 | **Desenvolvimento** | Python, FastAPI, Java e Spring Boot |
 | **DevOps** | GitHub Actions, CI/CD, GitOps e componentes reutilizáveis |
-| **IA aplicada** | AI coding agents, skills, instruções de projeto e AI-DLC |
+| **IA aplicada** | AI coding agents, skills e instruções de projeto |
 | **Qualidade** | Testes, segurança, automação e documentação |
 
 > Tecnologias representam estudos e laboratórios pessoais — não uma afirmação de experiência profissional ou uso em produção.
@@ -50,7 +50,7 @@ Tenho explorado templates de serviços, módulos de infraestrutura como código,
 
 ## Atualmente estudando
 
-**Engenharia com agentes de IA · AI-DLC e SDLC · GitOps · Kubernetes · IaC reutilizável · automação segura**
+**Engenharia com agentes de IA · GitOps · Kubernetes · IaC reutilizável · automação segura**
 
 ## Minha atividade
 
