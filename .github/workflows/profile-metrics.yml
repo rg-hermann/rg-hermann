@@ -12,7 +12,7 @@ jobs:
       contents: write  # Para commitar o SVG
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Validar token de métricas
         id: token_check
