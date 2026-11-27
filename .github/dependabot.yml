@@ -1,19 +1,21 @@
 version: 2
 updates:
-  # GitHub Actions - mensal
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "monthly"
+      interval: weekly
+      day: monday
       time: "03:00"
-      timezone: "UTC"
-    open-pull-requests-limit: 5
+      timezone: UTC
+    open-pull-requests-limit: 3
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
     labels:
-      - "dependencies"
-      - "github-actions"
+      - dependencies
+      - github-actions
+    groups:
+      actions-minor-patch:
         patterns:
           - "*"
         update-types:
