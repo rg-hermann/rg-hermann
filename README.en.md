@@ -31,7 +31,7 @@ I'm especially interested in **infrastructure modules, service templates, CI/CD 
 | **Infrastructure** | Terraform, Helm, Kubernetes, Docker, Azure, and AWS |
 | **Development** | Python, FastAPI, Java, and Spring Boot |
 | **DevOps** | GitHub Actions, CI/CD, GitOps, and reusable components |
-| **Applied AI** | AI coding agents, skills, project instructions, and AI-DLC |
+| **Applied AI** | AI coding agents, skills, and project instructions |
 | **Quality** | Testing, security, automation, and documentation |
 
 > These technologies reflect personal studies and labs—not a claim of professional experience or production use.
@@ -50,7 +50,7 @@ I've been exploring service templates, infrastructure-as-code modules, platform 
 
 ## Currently learning
 
-**AI agent engineering · AI-DLC and SDLC · GitOps · Kubernetes · reusable IaC · secure automation**
+**AI agent engineering · GitOps · Kubernetes · reusable IaC · secure automation**
 
 ## My activity
 
