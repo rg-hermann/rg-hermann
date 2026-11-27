@@ -14,6 +14,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="DevOps, Cloud, IaC, automação e IA aplicada" width="100%">
+</p>
+
 ## Sobre mim
 
 Sou entusiasta de tecnologia, estudante e desenvolvedor com foco em **DevOps e Cloud**. Gosto de explorar como software, infraestrutura e automação se conectam — construindo laboratórios, testando ideias e transformando aprendizados em soluções reutilizáveis.
@@ -47,6 +51,16 @@ Tenho explorado templates de serviços, módulos de infraestrutura como código,
 ## Atualmente estudando
 
 **Engenharia com agentes de IA · AI-DLC e SDLC · GitOps · Kubernetes · IaC reutilizável · automação segura**
+
+## Minha atividade
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg">
+    <img src="dist/github-snake.svg" alt="Animação da cobrinha no gráfico de contribuições do GitHub" width="100%">
+  </picture>
+</p>
 
 ---
 

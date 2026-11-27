@@ -14,6 +14,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="DevOps, Cloud, IaC, automation, and applied AI" width="100%">
+</p>
+
 ## About me
 
 I'm a technology enthusiast, student, and developer focused on **DevOps and Cloud**. I enjoy exploring how software, infrastructure, and automation connect—building labs, testing ideas, and turning what I learn into reusable solutions.
@@ -47,6 +51,16 @@ I've been exploring service templates, infrastructure-as-code modules, platform 
 ## Currently learning
 
 **AI agent engineering · AI-DLC and SDLC · GitOps · Kubernetes · reusable IaC · secure automation**
+
+## My activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg">
+    <img src="dist/github-snake.svg" alt="Snake animation on the GitHub contribution graph" width="100%">
+  </picture>
+</p>
 
 ---
 
